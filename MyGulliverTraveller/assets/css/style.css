@@ -264,4 +264,155 @@ img{
 }
 /************** Galeria Container - Class  ************/
 
+/************** Copys  ************/
+
+.box {
+    width: 85%;
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.box-title {
+    text-align: center;
+    font-size: 6vmin;
+    margin: 20px 0;
+}
+
+/************** Copys  ************/
+
+/************** Copys --  Galeria */
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.gallery-item {
+    width: 28%;
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px #ccc;
+    transition: var(--transition);
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+.gallery-item img {
+    width: 90%;
+    border-radius: 7px;
+}
+
+.gallery-item h3 {
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+.gallery-item p {
+    margin: 0 0 30px;
+    width: 80%;
+    font-weight: 300;
+}
+
+.btn {
+    padding: 8px 35px;
+    background-color: var(--color-theme-1);
+    border: 2px solid var(--color-theme-3);
+    border-radius: 5px;
+    color: var(--color-light);
+    transition: var(--transition);
+}
+
+
+.gallery-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    transition: var(--transition);
+
+}
+/************** Copys --  Fim Galeria */
 /* https://qastack.com.br/programming/15782078/bring-element-to-front-using-css */
+
+/* footer */
+.footer {
+    width: 100%;
+    min-height: 400px;
+    background-color: var(--color-theme-3);
+    color: var(--color-theme-2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+    font-size: 0.8rem;
+}
+
+.nav-footer {
+    margin: 20px 0;
+    display: block;
+    background-color: transparent;
+    
+}
+
+.nav-footer li {
+    margin: 10px 0;
+}
+
+/* ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: var(--color-theme-3);
+    display: flex;
+    width: 100%;
+    justify-content: right;
+} */
+
+.nav-footer li a:hover {
+    color: transparent;
+}
+
+.fa-brands {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+
+.fa-brands:hover {
+    color: transparent;
+}
+
+.footer-items {
+    min-width: 15%;
+}
+
+.footer-items h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-theme-1);
+}
+
+.footer-items h3 {
+    font-weight: 900;
+    margin: 15px 0 10px;
+}
+
+.footer-items p {
+    margin: 5px 0;
+}
+
+.footer-items address {
+    font-style: normal;
+}
+
+
